@@ -10,10 +10,7 @@ if(!isset($_SESSION["userid"])){
 
 if(isset($_POST["btnlog"])){
     session_destroy();
-      session_unset();
-
-    header("location:login.php");
-     exit();
+    echo "<script>window.location.replace('login.php');</script>";
 }
 
 ?>

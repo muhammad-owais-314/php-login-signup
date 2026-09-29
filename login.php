@@ -37,7 +37,8 @@ $_SESSION['userid'] = $userData['id'];
 $_SESSION['name'] = $userData['name'];
 $_SESSION['email'] = $userData['email'];
 
-header("location:home.php");
+    echo "<script>window.location.replace('home.php');</script>";
+
 
     }
     else{
@@ -325,6 +326,7 @@ h1{
   </div>
  
   <button type="submit" name="btn" class="btn btn-primary">login</button>
+  <a class="btn btn-primary" href="index.php"> Go To Sign In Page</a>
 </form>
 </div>
 

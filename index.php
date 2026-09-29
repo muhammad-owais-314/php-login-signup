@@ -708,7 +708,7 @@ body {
     </form>
 
     <div class="terminal-footer">
-        <span>●</span> DEV_MODE &nbsp; | &nbsp; SECURE_CONNECTION
+        <span>●</span> DEV_MODE &nbsp; | &nbsp; <a class="wd-5" href="login.php">Move To LogIn</a>
     </div>
 
 </div>
